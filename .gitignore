@@ -144,3 +144,5 @@ cython_debug/
 
 # Local files not intended for inclusion public project
 _local
+pytest.ini
+.flake8
