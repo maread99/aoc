@@ -4,9 +4,9 @@ My [advent-of-code](https://adventofcode.com/) solutions in python.
 
 Probably not quick or competitive. Hopefully intelligible.
 
-numpy / pandas used liberally.
+Some use numpy.
 
-These are tidy versions of my original solutions. I might add a revised version to note a better way of doing it, or simply if looking back at something in the original made me wince.
+These are tidy versions of my original solutions. I might add a revised version to note a better way of doing it or an alternative version to note a different way of doing it (references included where these were inspired by someone else's solution).
 
 ## Useful references
 - [awesome-advent-of-code](https://github.com/Bogdanp/awesome-advent-of-code) - the Awesome repo is pretty awesome, references to resources and solutions (by year / by language).
