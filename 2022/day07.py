@@ -15,18 +15,12 @@ def is_cmd(line: str) -> bool:
 
 
 # Create list with each item representing one input / output
-it = iter(data)
 in_outs: list[tuple[str, list[str]]] = []
-while True:
-    try:
-        line = next(it)
-    except StopIteration:
-        break
-    else:
-        if is_cmd(line):
-            in_outs.append((line[2:], []))
-            continue
-        in_outs[-1][1].append(line)
+for line in data:
+    if is_cmd(line):
+        in_outs.append((line[2:], []))
+        continue
+    in_outs[-1][1].append(line)
 
 # verify looks like what's expected
 for in_out in in_outs:
