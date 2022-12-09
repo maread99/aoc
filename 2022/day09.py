@@ -1,4 +1,7 @@
-"""Day 9: Rope Bridge"""
+"""Day 9: Rope Bridge
+
+a 1hr, b 12mins.
+"""
 
 from aocd import get_data
 import numpy as np
