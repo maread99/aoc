@@ -5,6 +5,17 @@ on it elsewhere). Solved by trying what seemed plausible rather than
 through any conviction - suspected that the itegrity of the worry level
 would be upheld if reset to the remainder left after dividing it by
 the product of all the divisors.
+
+EDIT - looks like this is the way to do it. It's effectively 'reducing
+worry level' to the remainder after dividing by the least common multiple
+of all the divisors. Could have used `math.lcm` (as rev version) which
+would have reduced the combined divisor if any of the divisors were to have
+been factors of any other. Following reference covers why this works in
+the circumstances here as "the divisibility is preserved since congruence
+to a fixed modulus is preserved by addition and multiplication, which are
+the only two operations we perform", i.e. given the ops on the worry
+level, its integrity is preserved when divided by the LCM.
+    https://github.com/mebeim/aoc/tree/master/2022#day-11---monkey-in-the-middle
 """
 
 import math
