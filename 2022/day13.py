@@ -24,7 +24,7 @@ they could have fallen later, for example '[[2]]' would be ordered after
 
 Relaised it wouldn't actually take that long to simply sort the lot via
 `in_order` (although pretty sure there must be a better to do this than how
-I've implemneted it here).
+I've implemneted it here. EDIT: of course there is, see revision).
 """
 
 from aocd import get_data
