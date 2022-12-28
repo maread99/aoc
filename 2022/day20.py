@@ -4,6 +4,10 @@ Took an age to get both parts of this one out, all due to not implementing
 in a methodical manner and failing to fully appreciate the mechanics of
 list manipulation in each of the various circumstances accounted for within
 `solve`.
+
+@oliver-ni offers a far neater solution that takes advantage of being able
+to rotate through a deque:
+    https://github.com/oliver-ni/advent-of-code/blob/master/py/2022/day20.py
 """
 
 from collections.abc import Iterable
