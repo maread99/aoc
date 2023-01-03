@@ -1,35 +1,17 @@
 """Day 22: Monkey Map.
 
-part a 110mins, over half an hour looking for a bug which was wrapping to
-the wrong end when changing row. Should have picked up the bug on
-inspection without having to walkthrough the example.
-
-part b, many hours, considered trying to write a global solution which
-would work for any input, perhaps using matrix transformations to track the
-folds and then evaluate the touching edges, or evaluating all adjoining
-edges given those which are known (got so far as evaluating the vertices of
-each folded face altough it seemed to much of a leap from there to pairing
-edges of faces in each direction).
-
-Ended up with a solution which hard-codes wrapping mappings from inspection
-of the raw data.
-
-UPDATE: Looks like everyone who was looking to get the solution out ASAP
-went with a hard-coded solution. There are general solutions out there
-although I haven't come across one sufficiently simple that it could have
-been implemented quicker than the hard-coding route. Also, looks like all
-inputs had the same shape, so even hardcoded solutions should work for all
-inputs.
+Notably tides the 'walk' by getting the next distance and turn from a regex
+search rather than inspecting each element of the string one at a time.
+    https://github.com/hyper-neutrino/advent-of-code/blob/main/2022/day22p1.py
 """
 
 from collections import defaultdict, deque
+import re
 
 from aocd import get_data
 
 
 raw = get_data(day=22, year=2022)
-
-
 lines = raw.splitlines()
 
 MOVES = lines[-1]
@@ -57,24 +39,11 @@ for j, line in enumerate(lines[:-2], start=1):
     ROW_BOUNDS[j].append(i)
 
 
-move = iter(MOVES)
 directions = deque([1, 1j, -1, -1j])
 pos = START
 
-break_ = False
-while True:
-    next_move = next(move)
-    num: str | int = ""
-    while next_move.isdigit():
-        num += next_move
-        try:
-            next_move = next(move)
-        except StopIteration:
-            break_ = True
-            break
-
-    num = int(num)
-    turn = next_move
+for n, turn in re.findall(r"(\d+)([RL]?)", MOVES):
+    num = int(n)
     direction = directions[0]
     for _ in range(num):
         npos = pos + direction
@@ -91,9 +60,6 @@ while True:
         if not BOARD[npos]:  # i.e. if wall
             break
         pos = npos
-
-    if break_:
-        break
 
     directions.rotate(1 if turn == "L" else -1)
 
@@ -169,24 +135,11 @@ WRAP45 = get_wrap_mapping((4, 1j), (5, 1))
 WRAPS = WRAP05 | WRAP03 | WRAP15 | WRAP14 | WRAP12 | WRAP23 | WRAP45
 
 # as for part a with revised wrapping...
-move = iter(MOVES)
 directions = deque([1, 1j, -1, -1j])
 pos = START
 
-break_ = False
-while True:
-    next_move = next(move)
-    num = ""
-    while next_move.isdigit():
-        num += next_move
-        try:
-            next_move = next(move)
-        except StopIteration:
-            break_ = True
-            break
-
-    num = int(num)
-    turn = next_move
+for n, turn in re.findall(r"(\d+)([RL]?)", MOVES):
+    num = int(n)
     direction = directions[0]
     for _ in range(num):
         npos = pos + direction
@@ -201,9 +154,6 @@ while True:
         if not BOARD[npos]:  # i.e. if wall
             break
         pos = npos
-
-    if break_:
-        break
 
     directions.rotate(1 if turn == "L" else -1)
 
