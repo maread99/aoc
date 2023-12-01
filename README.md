@@ -1,3 +1,4 @@
+![Last commit](https://img.shields.io/github/last-commit/maread99/aoc)
 # aoc solutions
 
 My original [advent-of-code](https://adventofcode.com/) solutions in python, tidied to varing degrees.
@@ -9,7 +10,7 @@ I usually solve parts a and b separately. I won't force a combined solution at t
 After solving I might write a **rev**ised version to learn a better way of doing it or an **alt**ernative version to learn a different way of doing it (references included where these were inspired by someone else's solution).
 
 ## Useful references
-> :information_source: Last revised Dec 2022
+> :information_source: Last revised references Dec 2023
 - [awesome-advent-of-code](https://github.com/Bogdanp/awesome-advent-of-code) - the Awesome repo is pretty awesome, references to resources and solutions (by year / by language).
 - [hyper-nutrino](https://github.com/hyper-neutrino/advent-of-code) shares very competitive solutions and offers [video explanations](https://www.youtube.com/@hyper-neutrino) for each puzzle (hyper-nutrino can be frequently found at or towards the top of the day's leaderboard).
 - [mebeim](https://github.com/mebeim/aoc) has been offering a walkthrough of (nearly all) aoc solutions since 2019.
