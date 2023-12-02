@@ -1,8 +1,8 @@
 """Day 1: Trebuchet?!
 
 part a: 9mins
-
 part b: 29mins, changed approach.
+total: 38 mins, 5.4x bottom of the leaderboard.
 
 Feeling rusty.
 """
