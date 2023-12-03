@@ -4,9 +4,10 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 ## Summary
 
-Summary of key features of solutions.
+Summary of key features of solutions.  
 
-[1](./day01.py) #search &nbsp;#iteration
+[1](./01.py) #search &nbsp;#iteration  
 
-[2](./day02.py) #loops-nested &nbsp;#defaultdict  &nbsp;#reduce
+[2](./02.py) #loops-nested &nbsp;#defaultdict  &nbsp;#reduce  
 
+[3](./03.py) navigate a #grid with #complex-numbers  

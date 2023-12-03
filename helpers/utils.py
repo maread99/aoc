@@ -2,6 +2,7 @@
 
 import re
 
+
 # from https://github.com/mcpower/adventofcode/blob/master/utils.py
 def lmap(func, *iterables):
     return list(map(func, *iterables))
@@ -36,3 +37,21 @@ def positive_ints(s: str) -> list[int]:
     """
     assert isinstance(s, str), f"you passed in a {type(s)}!!!"
     return lmap(int, re.findall(r"\d+", s))
+
+
+# VECTORS
+
+# Complex number vectors
+
+# real horizontal, right positive, left negative
+# j imag vertical, down positive, up negative
+VECS = (
+    -1j,  # up
+    1 - 1j,  # up right
+    1,  # right
+    1 + 1j,  # down right
+    1j,  # down
+    -1 + 1j,  # down left
+    -1,  # left
+    -1 - 1j,  # up left
+)
