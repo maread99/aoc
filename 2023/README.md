@@ -11,3 +11,4 @@ Summary of key features of solutions.
 [2](./02.py) #loops-nested &nbsp;#defaultdict  &nbsp;#reduce  
 
 [3](./03.py) navigate a #grid with #complex-numbers  
+[3_rev](./03_rev.py) #tuples &nbsp;#grid  
