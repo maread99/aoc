@@ -12,3 +12,5 @@ Summary of key features of solutions.
 
 [3](./03.py) navigate a #grid with #complex-numbers  
 [3_rev](./03_rev.py) #tuples &nbsp;#grid  
+
+[4](./04.py) #sets &nbsp;#defaultdict  
