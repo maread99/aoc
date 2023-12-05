@@ -14,3 +14,6 @@ Summary of key features of solutions.
 [3_rev](./03_rev.py) #tuples &nbsp;#grid  
 
 [4](./04.py) #sets &nbsp;#defaultdict  
+
+**If You Give A Seed A Fertilizer**  
+[5](./05.py) #intervals &nbsp;#mappings  
