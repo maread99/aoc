@@ -12,8 +12,18 @@ After solving I might write a **rev**ised version to learn a better way of doing
 ## Useful references
 > :information_source: Last revised references Dec 2023
 - [awesome-advent-of-code](https://github.com/Bogdanp/awesome-advent-of-code) - the Awesome repo is pretty awesome, references to resources and solutions (by year / by language).
-- [hyper-nutrino](https://github.com/hyper-neutrino/advent-of-code) shares very competitive solutions and offers [video explanations](https://www.youtube.com/@hyper-neutrino) for each puzzle (hyper-nutrino can be frequently found at or towards the top of the day's leaderboard).
-- [mebeim](https://github.com/mebeim/aoc) has been offering a walkthrough of (nearly all) aoc solutions since 2019.
-- [Viliam Pucik](https://github.com/viliampucik/adventofcode) doesn't usually do all the puzzles each year, although among those Viliam has solved I've found some of the best solutions I've seen anywhere (look at [day 25 2022](https://github.com/viliampucik/adventofcode/blob/master/2022/25.py) and weep).
 - [advent-of-code-data](https://github.com/wimglenn/advent-of-code-data) - helper library for accessing puzzle data.
 - [aoc subreddit](https://www.reddit.com/r/adventofcode)
+
+### Solutions
+- [hyper-nutrino](https://github.com/hyper-neutrino/advent-of-code) shares very competitive solutions and offers [video explanations](https://www.youtube.com/@hyper-neutrino) for each puzzle (hyper-nutrino can be frequently found at or towards the top of the day's leaderboard). My go-to "this is how you should have done it".
+- [MasterMedo](https://github.com/MasterMedo/aoc) regularly publishes solutions. I've found some real gems in here offering novel, efficient implementations.
+- [Jonathan Paulson](https://github.com/jonathanpaulson/AdventOfCode) is as good as always towards the top of the leaderboard. Publishes original solutions and videos [(here)](https://www.youtube.com/@jonathanpaulson5053) of real-time submissions streamed with a delay. Videos include post-submission explanations.
+- [mebeim](https://github.com/mebeim/aoc) has been offering a walkthrough of (nearly all) aoc solutions since 2019.
+- [iKevinY](https://github.com/iKevinY/advent) is a regular leaderboarder who publishes clear intelligible solutions.
+- [oliver-ni](https://github.com/oliver-ni/advent-of-code) is a regular leaderboarder publishing solutions with minimal clean-up.
+- [gahjelle](https://github.com/gahjelle/advent_of_code) frequently offers various solutions for a day, each offering a different approach.
+
+
+#### Solutions from previous years (not publishing in 2023)
+- [Viliam Pucik](https://github.com/viliampucik/adventofcode) doesn't usually do all the puzzles each year, although among those Viliam has solved I've found some of the best solutions I've seen anywhere (look at [day 25 2022](https://github.com/viliampucik/adventofcode/blob/master/2022/25.py) and weep).
