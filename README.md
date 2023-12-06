@@ -9,6 +9,8 @@ I usually solve parts a and b separately. I won't force a combined solution at t
 
 After solving I might write a **rev**ised version to learn a better way of doing it or an **alt**ernative version to learn a different way of doing it (references included where these were inspired by someone else's solution).
 
+The README for each year serves as a reference of the key features of each solution.
+
 ## Useful references
 > :information_source: Last revised references Dec 2023
 - [awesome-advent-of-code](https://github.com/Bogdanp/awesome-advent-of-code) - the Awesome repo is pretty awesome, references to resources and solutions (by year / by language).

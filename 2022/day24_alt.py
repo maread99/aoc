@@ -75,6 +75,8 @@ def bfs(start=START, end=END, start_tm=0) -> int:
                     q.append(state)
                     seen.add(state)
 
+    return tm
+
 FIRST_LEG = bfs()
 print(FIRST_LEG)
 

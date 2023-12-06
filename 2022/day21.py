@@ -4,6 +4,9 @@ part b, Trial and Error after interogating how the two values change for changes
 'humn' and seeing that one side is constant. To 'home in' used a helper that returned
 difference for each digit. Changed 'humn' to reduce the difference for each digit to
 zero. Didn't write a script for it.
+EDIT - The way to do this was to identify from the pattern of outcomes that
+the underlying function was monotonic and hence that the answer could be
+homed in on via a binary search.
 """
 
 import re
