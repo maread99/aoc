@@ -17,3 +17,4 @@ Summary of key features of solutions.
 
 **If You Give A Seed A Fertilizer**  
 [5](./05.py) #intervals &nbsp;#mappings  
+[5](./05_rev.py) #intervals &nbsp;#mappings &nbsp;#stack &nbsp;#shift  
