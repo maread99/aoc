@@ -2,9 +2,9 @@
 
 See the [main README](https://github.com/maread99/aoc) for notes on how I go about aoc. There are also some decent references there.
 
-## Summary
+## Reference
 
-Summary of key features of solutions.  
+### Summary of key features of solutions
 
 [1](./01.py) #search &nbsp;#iteration  
 
@@ -20,3 +20,6 @@ Summary of key features of solutions.
 [5](./05_rev.py) #intervals &nbsp;#mappings &nbsp;#stack &nbsp;#shift  
 
 [6](./06.py) conditional #count and an unnecessary but efficient #binary-search  
+
+[7](./07.py) #codify-rules &nbsp;#sort  
+[7](./07_rev.py) #codify-rules &nbsp;#sort &nbsp;#compare  
