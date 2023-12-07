@@ -23,3 +23,4 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [7](./07.py) #codify-rules &nbsp;#sort  
 [7](./07_rev.py) #codify-rules &nbsp;#sort &nbsp;#compare  
+[7](./07_alt.py) #codify-rules &nbsp;#sort &nbsp;#counting &nbsp;#stuctural-pattern-matching  
