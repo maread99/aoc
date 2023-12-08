@@ -31,7 +31,7 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [10](./day10.py) #functional-programming  
 
-[11_rev](./day11_rev.py) #exponential. Reduce an exponentially growing value in such a way as to maintain its integrity. Here by dividing by #lowest-common-multiple. Also #stack  
+[11_rev](./day11_rev.py) #exponential. Reduce an exponentially growing value in such a way as to maintain its integrity. Here by dividing by lowest-commmon-multiple #LCM. Also #stack  
 
 **Hill Climbing Algorithm**  
 [12_rev](./day12_rev.py) Breadth-first search #BFS. Using #vectors to navigate a #grid represented with a dict. Also #codepoints-ord &nbsp;#counting
