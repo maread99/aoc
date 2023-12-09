@@ -17,14 +17,15 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 **If You Give A Seed A Fertilizer**  
 [5](./05.py) #intervals &nbsp;#mappings  
-[5](./05_rev.py) #intervals &nbsp;#mappings &nbsp;#stack &nbsp;#shift  
+[5_rev](./05_rev.py) #intervals &nbsp;#mappings &nbsp;#stack &nbsp;#shift  
 
 [6](./06.py) conditional #count and an unnecessary but efficient #binary-search  
 
 [7](./07.py) #codify-rules &nbsp;#sort  
-[7](./07_rev.py) #codify-rules &nbsp;#sort &nbsp;#compare  
-[7](./07_alt.py) #codify-rules &nbsp;#sort &nbsp;#counting &nbsp;#stuctural-pattern-matching  
+[7_rev](./07_rev.py) #codify-rules &nbsp;#sort &nbsp;#compare  
+[7_alt](./07_alt.py) #codify-rules &nbsp;#sort &nbsp;#counting &nbsp;#stuctural-pattern-matching  
 
 [8](./08.py) #LCM  
 
-[9](./9.py) #arrays  
+[9](./09.py) #arrays  
+[9_rev](./09_rev.py) #recursion  
