@@ -26,3 +26,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [7](./07_alt.py) #codify-rules &nbsp;#sort &nbsp;#counting &nbsp;#stuctural-pattern-matching  
 
 [8](./08.py) #LCM  
+
+[9](./9.py) #arrays  
