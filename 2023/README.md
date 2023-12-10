@@ -29,3 +29,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [9](./09.py) #arrays  
 [9_rev](./09_rev.py) #recursion  
+
+[10](./10.py) navigate a #grid with #complex-numbers  
