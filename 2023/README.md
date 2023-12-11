@@ -32,3 +32,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [10](./10.py) navigate a #grid with #complex-numbers  (requires hard-coding symbol for S)  
 [10](./10_rev.py) navigate a #grid with #complex-numbers  (general solution)  
+
+[11](./11.py) #arrays to represent #grid and #sets to store grid contents. Also #manhattan  
