@@ -61,7 +61,7 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [19](./day19.py) #DFS in which optimizations are key and #tuples used to record states  
 
 **Grove Positioning System**  
-[20](./day20.py) list manipulation  
+[20](./day20.py) manipulation of #arrays  
 
 **Monkey Math**  
 [21](./day21.py) #trial-and-error  

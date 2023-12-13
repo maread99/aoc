@@ -34,3 +34,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [10](./10_rev.py) navigate a #grid with #complex-numbers  (general solution)  
 
 [11](./11.py) #arrays to represent #grid and #sets to store grid contents. Also #manhattan  
+
+[13](./13_rev.py) manipulation of #arrays. Also #zip  
