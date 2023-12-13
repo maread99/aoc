@@ -35,4 +35,7 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [11](./11.py) #arrays to represent #grid and #sets to store grid contents. Also #manhattan  
 
+[12](./12.py) #recursion &nbsp;#memoization  
+[12_alt](./12_alt.py) #recursion &nbsp;#brute-force.  NB Part a only.  
+
 [13](./13_rev.py) manipulation of #arrays. Also #zip  
