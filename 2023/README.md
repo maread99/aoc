@@ -39,3 +39,6 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [12_alt](./12_alt.py) #recursion &nbsp;#brute-force.  NB Part a only.  
 
 [13](./13_rev.py) manipulation of #arrays. Also #zip  
+
+[14](./14.py) navigate a #grid with #complex-numbers. Also identifying #patterns &nbsp;#sort  
+[14](./14_rev.py) represent grid with numpy #matrix. Also identifying #patterns  
