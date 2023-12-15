@@ -4,6 +4,12 @@ Attempt at a quicker version that could get the solution out by iteration.
 Didn't happen, but this one's a a lot quicker. Gets it out in a few
 seconds via identification of the pattern.
 
+EDIT: For the exemplar solution see hyper-neutrino's:
+    https://github.com/hyper-neutrino/advent-of-code/blob/main/2023/day14p2.py
+That solution, as most of those that I've seen do, recognise that the pattern
+will repeat whenever the grid's in the same state as it's been in before.
+From there can extrapolate forwards.
+
 #numpy  #matrix  #patterns
 """
 
