@@ -42,3 +42,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [14](./14.py) navigate a #grid with #complex-numbers. Also identifying #patterns &nbsp;#sort  
 [14](./14_rev.py) represent grid with numpy #matrix. Also identifying #patterns  
+
+[15](./15.py) #mappings  
