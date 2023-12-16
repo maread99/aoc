@@ -44,3 +44,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [14](./14_rev.py) represent grid with numpy #matrix. Also identifying #patterns  
 
 [15](./15.py) #mappings  
+
+[16](./16.py) #complex-numbers and #vectors to navigate a grid  

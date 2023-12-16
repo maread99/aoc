@@ -55,3 +55,11 @@ VECS = (
     -1,  # left
     -1 - 1j,  # up left
 )
+
+# Direction vectors
+# real horizontal, right positive, left negative
+# j imag vertical, down positive, up negative
+UP = -1j
+DOWN = 1j
+LEFT = -1
+RIGHT = 1
