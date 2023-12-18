@@ -63,3 +63,15 @@ UP = -1j
 DOWN = 1j
 LEFT = -1
 RIGHT = 1
+
+
+# Create BOUNDARY around a square grid
+assert len(rows) == len(rows[0]), (len(rows), len(rows[0]), rows)  # assert square
+DIM = len(rows)
+
+BOUNDARY = set()
+for i in range(-1, DIM + 1):
+    BOUNDARY.add(complex(-1, i))
+    BOUNDARY.add(complex(DIM, i))
+    BOUNDARY.add(complex(i, -1))
+    BOUNDARY.add(complex(i, DIM))

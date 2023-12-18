@@ -46,3 +46,6 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [15](./15.py) #mappings  
 
 [16](./16.py) #complex-numbers and #vectors to navigate a grid  
+
+[17](./17.py) Optimized #BFS  
+[17](./17_rev.py) #Dijkstra  
