@@ -47,5 +47,7 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [16](./16.py) #complex-numbers and #vectors to navigate a grid  
 
-[17](./17.py) Optimized #BFS  
+[17](./17.py) optimized #BFS  
 [17](./17_rev.py) #Dijkstra  
+
+[18](./18.py) #BFS &nbsp;#complex-numbers  #areas
