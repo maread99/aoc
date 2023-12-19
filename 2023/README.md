@@ -51,3 +51,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [17](./17_rev.py) #Dijkstra  
 
 [18](./18.py) #BFS &nbsp;#complex-numbers  #areas
+
+[19](./19.py) #recursion  
