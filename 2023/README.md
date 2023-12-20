@@ -53,3 +53,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [18](./18.py) #BFS &nbsp;#complex-numbers  #areas
 
 [19](./19.py) #recursion  
+
+[20](./20.py) #classes &nbsp;#queue &nbsp;#patterns &nbsp;#LCM  
