@@ -55,3 +55,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [19](./19.py) #recursion  
 
 [20](./20.py) #classes &nbsp;#queue &nbsp;#patterns &nbsp;#LCM  
+
+[21_a](./21_a.py) #BFS  

@@ -63,7 +63,7 @@ UP = -1j
 DOWN = 1j
 LEFT = -1
 RIGHT = 1
-
+DIRS = (UP, DOWN, LEFT, RIGHT)
 
 # Create BOUNDARY around a square grid
 assert len(rows) == len(rows[0]), (len(rows), len(rows[0]), rows)  # assert square
