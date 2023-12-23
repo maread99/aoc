@@ -57,3 +57,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [20](./20.py) #classes &nbsp;#queue &nbsp;#patterns &nbsp;#LCM  
 
 [21_a](./21_a.py) #BFS  
+
+[22](./22.py) #sets  
