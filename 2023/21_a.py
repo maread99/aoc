@@ -6,10 +6,10 @@ out of dead ends. Then took a while to figure out that only want to record
 the end plots on even counts. Effectively all seen cells can be either
 an end plot on an odd step or an even step, but not both (I think?).
 
-part b: Didn't get it out after umpteen hours.
-See `21_b_X.py`
+part b:
+See `21_b.py`
 
-total: Didn't get out part b. (bottom of the leaderboard was 1hr 19)
+Bottom of the leaderboard was 1hr 19.
 
 #BFS
 """

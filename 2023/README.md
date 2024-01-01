@@ -56,7 +56,9 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [20](./20.py) #classes &nbsp;#queue &nbsp;#patterns &nbsp;#LCM  
 
+**Step Counter**  
 [21_a](./21_a.py) #BFS  
+[21_b](./21_b.py) identifying #patterns &nbsp;#series &nbsp;#BFS
 
 [22](./22.py) #sets  
 

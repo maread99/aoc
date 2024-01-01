@@ -1,34 +1,25 @@
 """Day 21: Step Counter
 
-part b: Didn't get it out after umpteen hours.
+part b: Umpteen hours.
 Spent a while trying to replicate the map out from the center. First took
 copies in the cardinal directions, then realised that needed to include
 the diagonals, then realised that it still doesn't work as lose maps on the
 next iteration. Instead, created by rows and columns then set S to the
 middle of the middle one.
 
-Believe the solve is about identifying a pattern and extrapolating
-forwards. Got number of end plots for each of the first 2500 steps.
-Identified a pattern in about 2hr 30 although didn't appreciate
-that it was arithmetic until nearly 4hrs. Was able to get out all the
-expected answers at all steps shown for the example. Realised that it was
-never going to work for odd steps and changed the implementation to only
-record the end plots on odd counts. Found a series in the odd steps data,
-extrapolated out in the same way as for the even data (that got the
-answers out for the example), but wasn't getting the correct answer for
-the required number of steps. Either there's a problem in the pattern
-recognition (although it was coming out for the even steps) or in the
-implementation to evaluate the number of end plots for odd counts, although
-I can't see it.
-
-It's in the right ball park as submitting answers one `n` apart resulted in
-a 'TOO HIGH' and a 'TOO LOW' guess.
-
-I can't see why this doesn't work. I haven't since come across anyone that
-sought to solve in the same way. Who knows why this wasn't coming out?
+identified a pattern and extrapolated forwards. Got number of end plots
+for each of the first 2500 steps. Identified the pattern in about 2hr 30
+although didn't appreciate that it was arithmetic until nearly 4hrs. Was
+able to get out all the expected answers at all steps shown for the
+examplem, but not the answer for the actual data. Realised that it was
+never going to work for odd steps and changed the implementation to
+record end plots on odd counts if target step is odd. Still wasn't getting
+the right answer. Couldn't see why it wasn't coming out. Only when I got
+the answer by copying a different implementation (with a different
+approach) was I able to then debug and realise that the remainder was 1
+higher than required, or rather that the remainder had to be accounted for
+by considering the series as at one index position prior to the remainder.
 """
-
-print("THIS IMPLEMENTAION DOES NOT SOLVE!")
 
 import itertools
 from collections import deque
@@ -67,10 +58,8 @@ for j, row in enumerate(rows):
 
 GRID = {}
 
-# NOTE TOGGLE LINES for example / real input
-# DIM_EXPANSION = 199  # for EXAMPLE data
-# for REAL data...
-DIM_EXPANSION = 45  # 2 to double (4 base grids), 3 to triple (9 base grids)
+# DIM_EXANSION 2 to double (4 base grids), 3 to triple (9 base grids)
+DIM_EXPANSION = 29  # NOTE change to 199 for example
 assert DIM_EXPANSION % 2  # maintain total number of maps as a square number
 for loc, c in BASE_GRID.items():
     i, j = loc.real, loc.imag
@@ -94,10 +83,11 @@ RIGHT = 1
 DIRS = (UP, DOWN, LEFT, RIGHT)
 
 
+STEP = 26501365  # for real, NOTE change to 5000 for example
+TARGET_STEP_ODD = bool(STEP % 2)
+
 queue = deque([(S, 0)])  # tuples of (loc, count)
-# NOTE TOGGLE LINES for example / real input
-STEPS = 2500  # for REAL data
-# STEPS = 1000 # fpr EXAMPLE data
+STEPS = 1500  # NOTE change to 1000 for example
 seen = set()
 end_plots = set()
 end_plots_for_steps = [0] + ([0] * STEPS)
@@ -115,33 +105,26 @@ while queue:
         queue.append((nloc, i + 1))
         seen.add(nloc)
 
-        # NOTE TOGGLE LINES for EVEN (example) / ODD (real) step
-        # FOR EVEN step
-        # if not (i + 1) % 2:
-        #     end_plots.add(nloc)
-        # FOR ODD step
-        if (i + 1) % 2:
-            end_plots.add(nloc)
+        if TARGET_STEP_ODD:
+            if (i + 1) % 2:
+                end_plots.add(nloc)
+        else:  # target step is EVEN
+            if not (i + 1) % 2:
+                end_plots.add(nloc)
 
-# NOTE TOGGLE LINES for example / real data
-# STEP = 5000  # for example
-STEP = 26501365  # for real
 
-# NOTE TOGGLE LINES for EVEN (example) / ODD (real) step
-# end_plots_srs = end_plots_for_steps[::2]  # end plots for even steps
-end_plots_srs = end_plots_for_steps[1::2]  # end plots for odd steps
+start = 1 if TARGET_STEP_ODD else 2
+end_plots_srs = end_plots_for_steps[start::2]
 diffs = [b - a for a, b in itertools.pairwise(end_plots_srs)]
-i = 0
 pat_lens = []
 pat_valss = []
-for i in range(0, STEPS // 2):
-    i += 1
+for i in range(1, 2000):
     diffs_diff = [b - a for a, b in itertools.pairwise(diffs[::i])]
     if len(diffs_diff) > 3 and len(set(diffs_diff[2:])) == 1:
         pat_lens.append(i)
         pat_valss.append(diffs_diff)
 
-pat_len, pat_vals = pat_lens[0], pat_valss[0]
+pat_len, pat_vals = pat_lens[-1], pat_valss[-1]
 ptrn_start_idx = (
     pat_vals.index(pat_vals[-1]) * pat_len
 )  # get index from where pattern asserts
@@ -156,36 +139,18 @@ for i_ in range(pat_len):
 # sum of differences over pattern, i.e. value by which difference in increase in number
 # of end plots over a pattern increases from one pattern to the next
 d = sum(diffs_over_ptn)
-# NOTE TOGGLE LINES for EVEN (example) / ODD (real) step
-len_srs = (STEP // 2) + 1  # FOR ODD step
-# len_srs = (STEP // 2)  # FOR EVEN step
+len_srs = (STEP // 2) + (1 if TARGET_STEP_ODD else 0)
 n, r = divmod(len_srs, pat_len)
 # take off any number of pattern length before the pattern established
 n -= ptrn_start_idx // pat_len
 # offset to account for remainder
 using_pat_intervals = [
-    (a, b) for a, b in itertools.pairwise(end_plots_srs[ptrn_start_idx + r :: pat_len])
+    (a, b)
+    for a, b in itertools.pairwise(end_plots_srs[ptrn_start_idx + r - 1 :: pat_len])
 ]
 # initial value of arithmetic series to be summed
 a = using_pat_intervals[0][1] - using_pat_intervals[0][0]
 
 # sum of arithmetic series
-ans = int((n / 2) * ((2 * a) + ((n - 1) * d))) + end_plots_srs[ptrn_start_idx + r]
-
-
-print(
-    "evaluates to: <",
-    ans,
-    "> BUT THIS IS INCORRECT - THIS IMPLEMENTATION DOES NOT SOLVE!!",
-)
-
-# TRIES
-# TOO HIGH 609585292373841
-# TOO LOW 609573239368795
-# it's f'ing somewhere inbetween
-# TOO HIGH 609591318876364 TOTAL WASTE, higher than the prior HIGH !!!
-# 609585292373840 WRONG (one less than original answer)
-# 609588262339984 WRONG n = 101150 (202300 / 2), r = 65
-# 609585229253302 WRONG n = 101150 (202300 / 2), r = 32
-# 609573282256082 WRONG n = 101149, r = 33
-# 609585335261552 WRONG n, r (101150, 33)   THIS IS THE CURRENT BEST GUESS!
+ans = int((n / 2) * ((2 * a) + ((n - 1) * d))) + end_plots_srs[ptrn_start_idx + r - 1]
+print(ans)
