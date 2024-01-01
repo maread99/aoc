@@ -59,3 +59,6 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [21_a](./21_a.py) #BFS  
 
 [22](./22.py) #sets  
+
+**Never Tell Me The Odds**  
+[24](./24.py) #vectors &nbsp;#systems &nbsp;#linear-algebra
