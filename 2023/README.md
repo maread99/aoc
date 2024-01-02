@@ -58,9 +58,13 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 **Step Counter**  
 [21_a](./21_a.py) #BFS  
-[21_b](./21_b.py) identifying #patterns &nbsp;#series &nbsp;#BFS
+[21_b](./21_b.py) identifying #patterns &nbsp;#series &nbsp;#BFS  
 
 [22](./22.py) #sets  
+
+**A Long Walk**  
+[23_a](./23_a.py) #DFS and navigate a #grid with #complex-numbers  
+[23_b](./23_a.py) #DFS &nbsp;#graph  
 
 **Never Tell Me The Odds**  
 [24](./24.py) #vectors &nbsp;#systems &nbsp;#linear-algebra
