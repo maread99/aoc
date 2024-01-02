@@ -65,6 +65,7 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 **A Long Walk**  
 [23_a](./23_a.py) #DFS and navigate a #grid with #complex-numbers  
 [23_b](./23_a.py) #DFS &nbsp;#graph  
+[23_b_alt](./23_a.py) #DFS &nbsp;#graph &nbsp;#recursion  
 
 **Never Tell Me The Odds**  
 [24](./24.py) #vectors &nbsp;#systems &nbsp;#linear-algebra
