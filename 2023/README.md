@@ -2,6 +2,11 @@
 
 See the [main README](https://github.com/maread99/aoc) for notes on how I go about aoc. There are also some decent references there.
 
+Not a bad year. Got them all out albeit needing...
+- a peek elsewhere to realise I'd neglected to include a cache in day 12 😱
+- a peek elsewhere to discover sympy for 24b
+- to use someone else's solution to get the answer out for 21b which in turn allowed me to debug my own solution by working backwards
+
 ## Reference
 
 ### Summary of key features of solutions
@@ -69,3 +74,7 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 **Never Tell Me The Odds**  
 [24](./24.py) #vectors &nbsp;#systems &nbsp;#linear-algebra
+
+**Snowverload**  
+[25](./25.py) #graph  
+[25_vis](./25.ipynb) Using `bqplot.Graph` to visualise #graph cut  
