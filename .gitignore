@@ -142,8 +142,9 @@ cython_debug/
 # Vscode
 .vscode
 
-# Local files not intended for inclusion public project
+# Local files not intended for inclusion to public project
 _local
 pytest.ini
 .flake8
 mypy.ini
+requirements.txt
