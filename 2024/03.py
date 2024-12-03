@@ -5,7 +5,8 @@ part b: 8mins
 
 The best solution is to use a regex. I use them sufficiently little that I
 thought it'd be quicker for me to just manipulate the string with standard
-methods. (I'll put up an `03_alt.py` version using regexes.)
+methods. (I've put up a `03_alt.py` version using a simple regex, so simple
+in fact that I should have dared take this approach in the first place.)
 
 total: 33mins, 9.8x bottom of the leaderboard.
 
