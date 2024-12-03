@@ -9,3 +9,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [1](./01.py) #lists &nbsp;#sort &nbsp;#zip  
 
 [2](./02.py) #lists  
+
+[3](./03.py) #strings  
