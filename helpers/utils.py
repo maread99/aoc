@@ -65,6 +65,11 @@ LEFT = -1
 RIGHT = 1
 DIRS = (UP, DOWN, LEFT, RIGHT)
 
+UP_L = -1 - 1j
+UP_R = 1 - 1j
+DOWN_L = -1 + 1j
+DOWN_R = 1 + 1j
+
 # Create BOUNDARY around a square grid
 assert len(rows) == len(rows[0]), (len(rows), len(rows[0]), rows)  # assert square
 DIM = len(rows)

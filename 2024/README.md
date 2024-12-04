@@ -12,3 +12,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [3](./03.py) #strings  
 [3_alt](./03_alt.py) #regex  
+
+[4](./04.py) navigate a #grid with #complex-numbers  
