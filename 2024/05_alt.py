@@ -1,18 +1,12 @@
 """Day 5: Print Queue
 
-part a: 36mins
-I overcomplicated the function to check if an update is valid (the original
-version I used for the solve is commented out at the end of this file).
+Solves part b using comparative sorting.
 
-part b: 15mins
-Quicker way to solve would have been comparative sorting (see `05_alt.py`).
-
-total: 51mins, 13.7x bottom of the leaderboard.
-
-#lists
+#lists  #sort  #compare
 """
 
 from collections import defaultdict
+import functools
 
 from aocd import get_data
 
@@ -49,7 +43,6 @@ raw = get_data(day=5, year=2024)
 # """
 
 protocols_, updates_ = raw.split("\n\n")
-
 protocols = [list(map(int, l.split("|"))) for l in protocols_.splitlines()]
 updates = [list(map(int, u.split(","))) for u in updates_.splitlines()]
 
@@ -76,31 +69,6 @@ for update in updates:
 print(sum(l[len(l) // 2] for l in valid_updates))
 
 
-crctd_updates = []
-for pages in invalid_updates:
-    crctd = [pages[0]]
-    for page in pages[1:]:
-        inserted = False
-        for i, v in enumerate(crctd):
-            if v in mp[page]:
-                crctd.insert(i, page)
-                inserted = True
-                break
-        if not inserted:
-            crctd.append(page)
-    crctd_updates.append(crctd)
-
+key = functools.cmp_to_key(lambda a, b: -1 if b in mp[a] else 1)
+crctd_updates = [sorted(iu, key=key) for iu in invalid_updates]
 print(sum(l[len(l) // 2] for l in crctd_updates))
-
-
-# Overcomplicated original version of `is_valid`` used to solve:
-# def is_valid(update: list[int]) -> bool:
-#     rvrsd = list(reversed(update))
-#     remaining_vals = [rvrsd[0]]
-#     for page in rvrsd[1:]:
-#         for v in remaining_vals:
-#             comes_before_pages = mp[v]
-#             if page in comes_before_pages:
-#                 return False
-#         remaining_vals.append(page)
-#     return True

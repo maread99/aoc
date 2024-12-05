@@ -16,3 +16,4 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [4](./04.py) navigate a #grid with #complex-numbers  
 
 [5](./05.py) #lists  
+[5_alt](./05_alt.py) #sort with a comparison function. Also #lists &nbsp;#compare  
