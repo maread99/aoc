@@ -17,3 +17,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [5](./05.py) #lists  
 [5_alt](./05_alt.py) #sort with a comparison function. Also #lists &nbsp;#compare  
+
+[6](./06.py) #sets &nbsp;#complex-numbers  
