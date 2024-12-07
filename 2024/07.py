@@ -7,13 +7,17 @@ operators before realising that I was after a product with repetition.
 part b: 19mins
 30 second execution time. (NB I've edited this file to correct the number
 of repetitions when evaluating the products - I needed a minus 1 in there.
-With the superfluous repetition execution was taking 1 minute 40 seconds!)
+With the superfluous repetition the execution took 1mim 40secs!)
 
 total: 54mins, 14.3x bottom of the leaderboard.
 
 NOTE This solution is inefficient! A more efficient implementation is
-recursion which avoids much of the computation duplication. I'll put up
-a revised version.
+recursion which avoids much of the computation duplication (see
+`06_rev.py`). The duplication occurs here as, for each line, all of each
+possible combination of operations is evaluated. For example to evaluate
+++**+ and ++*** the first part of the calculation ++** would be repeated.
+Recursion avoids this by continually branching off from the common base, in
+this example ++**, with the base only evaluated once.
 
 #reduce #product #brute-force
 """
