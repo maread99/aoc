@@ -20,3 +20,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [6](./06.py) #sets &nbsp;#complex-numbers  
 [6_rev](./06_alt.py) further optimised. #sets &nbsp;#complex-numbers  
+
+[7](./07.py) #reduce &nbsp;#product &nbsp;#brute-force
