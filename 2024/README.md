@@ -23,3 +23,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [7](./07.py) #reduce &nbsp;#product &nbsp;#brute-force  
 [7_rev](./07_rev.py) #recursion &nbsp;#brute-force
+
+[8](./08.py) #complex-numbers to represent #vectors. Also #sets &nbsp;#combinations  
