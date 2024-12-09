@@ -26,4 +26,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [8](./08.py) #complex-numbers to represent #vectors. Also #sets &nbsp;#combinations  
 
-[9](./09.py) #arrays  
+[9](./09.py) manipulation of #arrays  
+[9_alt](./09_alt.py) manipulation of #strings  
