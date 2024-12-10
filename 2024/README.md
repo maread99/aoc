@@ -28,3 +28,6 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [9](./09.py) manipulation of #arrays  
 [9_alt](./09_alt.py) manipulation of #strings  
+
+[10](./10.py) #DFS  #recursion  #sets. Also navigating a #grid with #complex-numbers  
+[10_alt](./10_alt.py) #stack instead of recursion  
