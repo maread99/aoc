@@ -33,3 +33,4 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [10_alt](./10_alt.py) #stack instead of recursion  
 
 [11](./11.py) #counter &nbsp;#codify-rules  
+[11_alt](./11_alt.py) #recursion &nbsp;#memoization &nbsp;#codify-rules  

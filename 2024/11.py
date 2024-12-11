@@ -19,6 +19,8 @@ of times to look at it a fresh, and doing so again brought about a rather
 drawn out groan of realisation. Implementing the Counter solution took
 less than ten minutes.
 
+(EDIT - this can be solved by recursion, see `11_alt.py`)
+
 total: 3hours 50minutes! 33x bottom of the leaderboard. Horrendous.
 
 #counter  #codify-rules
