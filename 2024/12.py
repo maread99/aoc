@@ -9,7 +9,7 @@ part b: 67mins
 Identifies 'sides' with a 2-tuple key where:
     [0] the direction a bird would look to see the side from just inside
     the plot perimeter. For example, UP if the side is 'above' the cell
-    immediately inside in the perimeter.
+    immediately inside the perimeter.
     [1] the value of the row or column that lies immediately next to the
     plot (on the outer side of the perimeter) in this direction.
 
@@ -22,9 +22,13 @@ first with the wrong one (tried to add on the number of plot locations that
 adjoin the 'side', but of course this only works if the side is broken by a
 single location, as in the "V" region, but not if it's broken by a strip of
 more than one location). Went with the much simpler original idea of, for
-each 'side; adding one each time an otherwise contiguous strip of non-plot
+each 'side' adding one each time an otherwise contiguous strip of non-plot
 locations (on the outer side of the perimeter) was broken by one or more
 plot locations).
+
+EDIT: I believe another way to count the number of sides would be to 'walk'
+the perimeter and simply 'add a side' each time the walk changes direction,
+i.e at each corner.
 
 total: 1hour 52mins, 6.3x bottom of the leaderboard
 Respectable time for me, shame I wasted a bit on part b.
@@ -122,7 +126,7 @@ for typ, plots in plots_all.items():
         for (d, row_col), locs in sides.items():
             # vals as column or row values of cells along side (on outer side of perimeter)
             vals = sorted([loc.real if d in (UP, DOWN) else loc.imag for loc in locs])
-            # add one actual side every time these cells do not for contiguous regions
+            # add one actual side every time these cells do not form contiguous regions
             prm += sum((1 for a, b in itertools.pairwise(vals) if b - a != 1))
         tot += area * prm
 
