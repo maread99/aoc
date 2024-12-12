@@ -36,7 +36,7 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 **Hill Climbing Algorithm**  
 [12_rev](./day12_rev.py) Breadth-first search #BFS. Using #vectors to navigate a #grid represented with a dict. Also #codepoints-ord &nbsp;#counting
 
-**Distress Signal**
+**Distress Signal**  
 [13_rev](./day13_rev.py) #sort with a comparison function. Also #codify-rules &nbsp;#compare  
 [13_rev2](./day13_rev2.py) Also #stuctural-pattern-matching
 
