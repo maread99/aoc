@@ -36,3 +36,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [11_alt](./11_alt.py) #recursion &nbsp;#memoization &nbsp;#codify-rules  
 
 [12](./12.py) #DFS. &nbsp;Also navigating a #grid with #complex-numbers  
+
+[13](./13.py) #linear-algebra  
