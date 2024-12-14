@@ -29,6 +29,28 @@ that the Easter Egg appears.
 
 total: 3hours 50mins, 14.6x bottom of the leaderboard.
 
+EDIT:
+The alt and rev version of day 14 tidy up some of the superflous code on
+the version here.
+
+I had a look around and found a number of solutions that I liked:
+    - hyperneutrino was the only one I saw who actually realised the best
+    way to do this - see `14_rev.py`
+
+    - Evaluate the iteration which has the highest number of immediately
+    adjoining robots - see `14_alt.py`
+
+    - Guess part of the pattern and search for it on each iteration:
+        https://github.com/Hip-po/aoc/blob/master/day14/day14.py
+
+    - I also saw a few people also correctly guessed that the tree
+    iteration would be the first one where there were no overlapping
+    robots.
+
+Also, the number of iterations before the pattern repeats is the
+width * height of the grid. I kind of think it should be obvious to me why
+this is, but it's not.
+
 #vectors
 """
 

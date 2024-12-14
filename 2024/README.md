@@ -40,3 +40,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [13](./13.py) #linear-algebra  
 
 [14](./14.py) #vectors  
+[14_rev](./14_rev.py) #vectors  
+[14_alt](./14_alt.py) #vectors  
