@@ -44,3 +44,4 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [14_alt](./14_alt.py) #vectors  
 
 [15](./15.py) #codify-rules. &nbsp;Also navigate a #grid with #complex-numbers  
+[15_rev](./15_rev.py) ... and also manipulation of #arrays  
