@@ -80,3 +80,6 @@ for i in range(-1, DIM + 1):
     BOUNDARY.add(complex(DIM, i))
     BOUNDARY.add(complex(i, -1))
     BOUNDARY.add(complex(i, DIM))
+
+# Empty grid
+grid = [["."] * len(rows[0]) for _ in range(len(rows))]
