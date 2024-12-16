@@ -36,7 +36,7 @@ Not a bad year. Got them all out albeit needing...
 [9_rev](./09_rev.py) #recursion  
 
 [10](./10.py) navigate a #grid with #complex-numbers  (requires hard-coding symbol for S)  
-[10](./10_rev.py) navigate a #grid with #complex-numbers  (general solution)  
+[10_rev](./10_rev.py) navigate a #grid with #complex-numbers  (general solution)  
 
 [11](./11.py) #arrays to represent #grid and #sets to store grid contents. Also #manhattan  
 
@@ -46,14 +46,14 @@ Not a bad year. Got them all out albeit needing...
 [13](./13_rev.py) manipulation of #arrays. Also #zip  
 
 [14](./14.py) navigate a #grid with #complex-numbers. Also identifying #patterns &nbsp;#sort  
-[14](./14_rev.py) represent grid with numpy #matrix. Also identifying #patterns  
+[14_rev](./14_rev.py) represent grid with numpy #matrix. Also identifying #patterns  
 
 [15](./15.py) #mappings  
 
 [16](./16.py) #complex-numbers and #vectors to navigate a grid  
 
 [17](./17.py) optimized #BFS  
-[17](./17_rev.py) #Dijkstra  
+[17_rev](./17_rev.py) #Dijkstra  
 
 [18](./18.py) #BFS &nbsp;#complex-numbers  #areas
 
