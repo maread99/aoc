@@ -47,3 +47,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [15_rev](./15_rev.py) ... and also manipulation of #arrays  
 
 [16](./16.py) #Dijkstra  
+
+[17](./17.py) #codify-rules &nbsp;#patterns  

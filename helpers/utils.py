@@ -83,3 +83,20 @@ for i in range(-1, DIM + 1):
 
 # Empty grid
 grid = [["."] * len(rows[0]) for _ in range(len(rows))]
+
+
+# PATTERN IDENTIFICATION
+def find_pattern(vals: list) -> list:
+    """find the longest repeating pattern in `vals`."""
+    for lgn in reversed(range(1, len(vals) // 2)):
+        n = 1
+        while lgn * (n + 1) < len(vals):
+            if vals[:lgn] != vals[lgn * n : lgn * (n + 1)]:
+                break
+            n += 1
+        else:
+            # verify that any 'part' at the end also matches...
+            vals_end = vals[-(len(vals) % lgn * (n + 2)) :]
+            if vals_end == vals[: len(vals_end)]:
+                return vals[:lgn]
+    return []
