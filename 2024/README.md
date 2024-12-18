@@ -49,3 +49,6 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [16](./16.py) #Dijkstra  
 
 [17](./17.py) #codify-rules &nbsp;#patterns  
+
+[18](./18.py) #BFS &nbsp;#sets  
+[18_alt](./18_alt.py) #BFS &nbsp;#sets  
