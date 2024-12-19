@@ -52,3 +52,6 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [18](./18.py) #BFS &nbsp;#sets  
 [18_alt](./18_alt.py) #BFS &nbsp;#sets  
+
+[19](./19.py) #DFS &nbsp;#recursion &nbsp;#memoization  
+[19_alt](./19_alt.py) #recursion &nbsp;#memoization  
