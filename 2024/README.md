@@ -55,3 +55,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [19](./19.py) #DFS &nbsp;#recursion &nbsp;#memoization  
 [19_alt](./19_alt.py) #recursion &nbsp;#memoization  
+
+[20](./20.py) #BFS &nbsp;#sets &nbsp;#manhattan  
