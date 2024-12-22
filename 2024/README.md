@@ -57,3 +57,7 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [19_alt](./19_alt.py) #recursion &nbsp;#memoization  
 
 [20](./20.py) #BFS &nbsp;#sets &nbsp;#manhattan  
+
+[21] PENDING 😕  
+
+[22](./22.py) #counter &nbsp;#generator &nbsp;#codify-rules  
