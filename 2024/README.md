@@ -58,7 +58,7 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [20](./20.py) #BFS &nbsp;#sets &nbsp;#manhattan  
 
-[21] PENDING 😕  
+[21](./21.py) #BFS &nbsp;#recursion  
 
 [22](./22.py) #counter &nbsp;#generator &nbsp;#codify-rules  
 
