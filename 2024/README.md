@@ -61,3 +61,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [21] PENDING 😕  
 
 [22](./22.py) #counter &nbsp;#generator &nbsp;#codify-rules  
+
+[23](./23.py) #sets &nbsp;#combinations  
