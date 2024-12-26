@@ -2,6 +2,8 @@
 
 See the [main README](https://github.com/maread99/aoc) for notes on how I go about aoc. There are also some decent references there.
 
+Good year for me - first time I've got them all out without having to look elsewhere at some point (at least if I'm forgiven for doing so to realise that aoc was after the answer for 17.1 as a comma-separated string 😳). Not sure if this year the puzzles were a bit easier or if I'm getting a bit better - suspect a bit of both.
+
 ## Reference
 
 ### Summary of key features of solutions
@@ -63,3 +65,7 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [22](./22.py) #counter &nbsp;#generator &nbsp;#codify-rules  
 
 [23](./23.py) #sets &nbsp;#combinations  
+
+[24](./24.py) #arrays  
+
+[25](./25.py)  
