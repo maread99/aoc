@@ -145,6 +145,6 @@ cython_debug/
 # Local files not intended for inclusion to public project
 _local
 pytest.ini
-.flake8
 mypy.ini
 requirements.txt
+ruff.toml

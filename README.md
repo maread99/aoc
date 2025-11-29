@@ -3,7 +3,7 @@
 
 My original [advent-of-code](https://adventofcode.com/) solutions in python, tidied to varing degrees.
 
-Probably not quick or competitive (at least Christmas side of around day 12). Hopefully intelligible.
+Probably not quick or competitive - at least Christmas side of around day 12 (day 6 from 2025). Hopefully intelligible.
 
 I usually solve parts a and b separately. I won't force a combined solution at the expense of intelligibility, although I might use or add one (**_comb**) if part b is a natural evolution of part a or if part a can be easily extracted from part b.
 
