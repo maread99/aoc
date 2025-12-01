@@ -1,7 +1,7 @@
 ![Last commit](https://img.shields.io/github/last-commit/maread99/aoc)
 # aoc solutions
 
-My original [advent-of-code](https://adventofcode.com/) solutions in python, tidied to varing degrees.
+My original [advent-of-code](https://adventofcode.com/) solutions in Python, tidied to varing degrees.
 
 Probably not quick or competitive - at least Christmas side of around day 12 (day 6 from 2025). Hopefully intelligible.
 

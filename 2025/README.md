@@ -6,3 +6,4 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 ### Summary of key features of solutions
 
+[1](./01.py) #divmod  
