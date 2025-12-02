@@ -7,3 +7,6 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 ### Summary of key features of solutions
 
 [1](./01.py) #divmod  
+[1_rev](./01_rev.py) #divmod  
+
+[2](./02.py) #patterns &nbsp;#iteration  
