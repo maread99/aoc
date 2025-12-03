@@ -5,15 +5,14 @@ Again, read the question too quickly and went barking up the wrong tree
 twice before realising what was actually being asked for (not a simple
 sort or two and extracting from the end).
 
-I then overcomplicated it. (Here I've included my original solution and a
-simpler revised one.)
+I then overcomplicated it. See '03_rev.py' for the way to do it.
 
 part 2: 36mins
 Approach could be used for part 1 by simply changing the two 12s for 2s.
 
 total: 64mins
 
-#iteration
+#iteration  #max
 """
 
 from aocd import get_data
@@ -42,18 +41,6 @@ for line in lines:
             h2 = c
     total += int("".join((h[0], h2)))
 
-
-# part 1 revised solution:
-total_alt = 0
-for line in lines:
-    bank = list(line)
-    max1 = max(bank[:-1])
-    idx = bank.index(max1)
-    rem = bank[idx + 1:]
-    max2 = max(rem)
-    total_alt += int("".join((max1, max2)))
-
-assert(total == total_alt)
 print(total)
 
 
@@ -73,4 +60,5 @@ for line in lines:
             vals.append(int(ns))
         val = str(max(vals))
     total += int(val)
+
 print(total)
