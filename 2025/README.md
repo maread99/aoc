@@ -10,3 +10,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [1_rev](./01_rev.py) #divmod  
 
 [2](./02.py) #patterns &nbsp;#iteration  
+
+[3](./03.py) #iteration  &nbsp;#max  
