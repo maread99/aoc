@@ -12,3 +12,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [2](./02.py) #patterns &nbsp;#iteration  
 
 [3](./03.py) #iteration  &nbsp;#max  
+
+[4](./04.py) #sets  &nbsp;#grid  

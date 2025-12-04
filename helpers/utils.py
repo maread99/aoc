@@ -70,8 +70,18 @@ DOWN_R = (1, 1)
 
 VECS = (UP, DOWN, LEFT, RIGHT, UP_L, UP_R, DOWN_L, DOWN_R)
 
+assert len(ROWS) == len(ROWS[0]), (len(ROWS), len(ROWS[0]), ROWS)  # assert square
+DIM = len(ROWS)
 
-# Direction vectors as complex numbers
+BOUNDARY = set()
+for i in range(-1, DIM + 1):
+    BOUNDARY.add((-1, i))
+    BOUNDARY.add((DIM, i))
+    BOUNDARY.add((i, -1))
+    BOUNDARY.add((i, DIM))
+
+
+# Direction vectors as COMPLEX NUMBERS
 # real horizontal, right positive, left negative
 # j imag vertical, down positive, up negative
 UP = -1j
