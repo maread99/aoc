@@ -16,3 +16,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [4](./04.py) #sets  &nbsp;#grid  
 
 [5](./05.py) #intervals  
+
+[6](./06.py) #zip  
