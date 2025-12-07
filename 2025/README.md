@@ -12,6 +12,7 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [2](./02.py) #patterns &nbsp;#iteration  
 
 [3](./03.py) #iteration  &nbsp;#max  
+[3](./03_rev.py) #iteration  &nbsp;#max  
 
 [4](./04.py) #sets  &nbsp;#grid  
 
@@ -20,3 +21,4 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [6](./06.py) #zip  
 
 [7](./07.py) #recursion  &nbsp;#memoization &nbsp;#iteration  
+[7](./07_alt.py) #recursion  &nbsp;#memoization &nbsp;#iteration  
