@@ -18,3 +18,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 [5](./05.py) #intervals  
 
 [6](./06.py) #zip  
+
+[7](./07.py) #recursion  &nbsp;#memoization &nbsp;#iteration  
