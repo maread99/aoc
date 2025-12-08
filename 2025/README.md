@@ -22,3 +22,5 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [7](./07.py) #recursion  &nbsp;#memoization &nbsp;#iteration  
 [7](./07_alt.py) #recursion  &nbsp;#memoization &nbsp;#iteration  
+
+[8](./08.py) #stuctural-pattern-matching &nbsp;#sets  
