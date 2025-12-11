@@ -25,4 +25,7 @@ See the [main README](https://github.com/maread99/aoc) for notes on how I go abo
 
 [8](./08.py) #stuctural-pattern-matching &nbsp;#sets  
 
+[9](./09.py) #bisect  
+[9](./09_alt.py) #ranges  
+
 [11](./11.py) #DFS &nbsp;#sets  
