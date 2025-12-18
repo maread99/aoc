@@ -23,7 +23,7 @@ I did manage to get them all out again without having to resort to looking elsew
 [6](./06.py) #zip  
 
 [7](./07.py) #recursion &nbsp;#memoization &nbsp;#iteration  
-[7_alt](./07_alt.py) #recursion &nbsp;#memoization &nbsp;#iteration  
+[7_alt](./07_alt.py) #DFS &nbsp;#memoization  
 
 [8](./08.py) #stuctural-pattern-matching &nbsp;#sets  
 
