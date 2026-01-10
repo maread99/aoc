@@ -33,5 +33,6 @@ I did manage to get them all out again without having to resort to looking elsew
 [10](./10.py) #linear-algebra  
 
 [11](./11.py) #DFS &nbsp;#sets  
+[11](./11_rev.py) #DFS &nbsp;#memoization  
 
 [12](./12.py) #christmas-spirit  

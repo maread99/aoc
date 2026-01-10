@@ -16,6 +16,9 @@ considering those paths that stuck within the known space. Comes out in
 NOTE: Solution assumes paths see "fft" before "dac", i.e. as in the
 example (and as for my input).
 
+EDIT: My word, not sure why I ended up complicating this so much. It can be
+solved with a simple cached DFS - see 11_rev.py.
+
 total: 3h 50mins
 9787
 #DFS  #sets
@@ -98,7 +101,6 @@ def num_paths(frm: str, to: str, subset: set[str] | None = None) -> int:
     """
     paths: list[list] = [[frm]]
     total = 0
-    i = 0
     while paths:
         path = paths.pop()
         for n in NETWORK[path[-1]]:
@@ -108,7 +110,6 @@ def num_paths(frm: str, to: str, subset: set[str] | None = None) -> int:
             if subset is not None and n not in subset:
                 continue
             paths.append(path + [n])
-        i += 1
     return total
 
 # nodes from which path has to pass through 'fft' to reach 'out'
