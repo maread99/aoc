@@ -2,7 +2,7 @@
 
 See the [main README](https://github.com/maread99/aoc) for notes on how I go about aoc. There are also some decent references there.
 
-I did manage to get them all out again without having to resort to looking elsewhere, although days 9 and 10 sapped my Christmas spirit, principally due to bugs that took an age to find (those types of bug that don't show themselves in the examples).
+I did manage to get them all out, although resorted to using a third-party library (scipy) for day 10. Days 9 and 10 sapped my Christmas spirit, principally due to bugs that took an age to find (those types of bug that don't show themselves in the examples).
 
 ## Reference
 
